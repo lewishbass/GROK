@@ -1,0 +1,66 @@
+
+:root{
+   font-family: "Outfit", sans-serif;
+   font-optical-sizing: auto;
+   border-radius: 0vmin;
+}
+
+#body{
+	position:absolute;
+	top:0px; left:0px;
+	height: 100%; width: 100%;
+	overflow: hidden;
+   background-color: #000;
+   margin: 0px;
+   display: flex;
+ }
+
+ #grok{
+   width: 1600px;
+   margin:auto;
+   shape-rendering: geometricPrecision;
+ }
+
+ #grok path{
+   stroke: #FFF;
+    stroke-width: 0.1;
+    fill: none;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 20s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes dash{
+   to{
+      stroke-dashoffset: 0;;
+   }
+}
+
+footer{
+   position:absolute;
+   bottom:0;
+   left:50%;
+   transform: translateX(-50%);
+   font-size: 1.2vmin;
+}
+
+a:link{
+   color: #FFF1;
+   text-decoration: none;
+}
+
+a:visited{
+   color: #FFF1;
+   text-decoration: none;
+}
+
+a:hover{
+   color: #FFF1;
+   text-decoration: none;
+}
+
+a:active{
+   color: #FFF1;
+   text-decoration: none;
+}
