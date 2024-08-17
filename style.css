@@ -31,6 +31,19 @@
     animation-fill-mode: forwards;
 }
 
+.fadein{
+   fill: #FFF4;
+   animation: fadeout 3s linear;
+   animation-fill-mode: forwards;
+   animation-delay: 2s;
+}
+
+@keyframes fadeout{
+   to{
+      fill: #FFF0;
+   }
+}
+
 @keyframes dash{
    to{
       stroke-dashoffset: 0;;

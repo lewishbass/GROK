@@ -41,9 +41,13 @@
         transform="scale(1.05,0.95)"
         aria-label="COCK" />
         </mask>
+        <g mask="url(#mymask)">
+          <rect width="126" height="36" x="-1" y="-1" fill="url(#grad1)"></rect>
+          <rect class="fadein" width="126" height="36" x="-1" y="-1"></rect>
+        </g>
         
-       <rect width="126" height="36" x="-1" y="-1" fill="url(#grad1)" mask="url(#mymask)"></rect>
-       <circle id="halo" cx="-50" cy="-50" r="10" style="fill:url(#grad2);" filter="url(#blur1)" mask="url(#mymask)"></circle>
+        <circle id="halo" cx="-50" cy="-50" r="10" style="fill:url(#grad2);" filter="url(#blur1)" mask="url(#mymask)"></circle>
+
     </svg>
 
 

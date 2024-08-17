@@ -17,8 +17,8 @@ document.getElementById("grok").addEventListener("mousemove", (e) => {
 function shif(timeStamp){
     ox = document.getElementById("halo").getAttribute("cx");
     oy = document.getElementById("halo").getAttribute("cy");
-    document.getElementById("halo").setAttribute("cx", (nx*0.015+ox*0.985));
-    document.getElementById("halo").setAttribute("cy", (ny*0.015+oy*0.985));
+    document.getElementById("halo").setAttribute("cx", (nx*0.01+ox*0.99));
+    document.getElementById("halo").setAttribute("cy", (ny*0.01+oy*0.99));
     console.log(anilock)
     if(Math.pow(ox-nx, 2) + Math.pow(oy-ny, 2) > 1){
         requestAnimationFrame(shif);
