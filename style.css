@@ -33,6 +33,8 @@
    float: left;
    margin: 22px;
    margin-left: 80px;
+   user-select: none;
+   cursor: pointer;
 }
 
 .menu_button{
