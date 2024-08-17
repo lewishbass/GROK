@@ -15,27 +15,32 @@
    display: flex;
  }
 
- #grok{
-   width: 90%;
-   margin:auto;
+#content{
+   width: 75%;
+   margin: auto;
+
+}
+
+#grok{
+   width: 100%;
    shape-rendering: geometricPrecision;
  }
 
  #grok path{
-   stroke: #FFF;
+    stroke: #FFF;
     stroke-width: 0.1;
     fill: none;
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: dash 20s linear;
+    animation: dash 15s linear;
     animation-fill-mode: forwards;
 }
 
 .fadein{
    fill: #FFF4;
-   animation: fadeout 3s linear;
+   animation: fadeout 6s ease;
    animation-fill-mode: forwards;
-   animation-delay: 2s;
+   animation-delay: 0.2s;
 }
 
 @keyframes fadeout{
@@ -48,6 +53,41 @@
    to{
       stroke-dashoffset: 0;;
    }
+}
+
+#intro{
+   margin-top: 100px;
+   font-size: 40px;
+   font-weight: 170;
+   width: fit-content;
+   margin-left: auto;
+   margin-right: auto;
+   color: #FFFE;
+}
+
+#intro_buttons{
+   padding-top: 25px;
+   margin: 20px;
+   width: 330px;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+}
+
+.intro_button{
+   width: fit-content;
+   font-size: 32px;
+   font-weight: 200;
+   color: #FFF9;
+   padding-bottom: 8px;
+   border-bottom: solid 1px;
+   transition: 0.25s linear;
+   cursor: pointer;
+}
+
+.intro_button:hover{
+   color: #FFF;
+   padding-bottom: 3px;
 }
 
 footer{
