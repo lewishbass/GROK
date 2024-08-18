@@ -140,6 +140,7 @@ footer{
    left:50%;
    transform: translateX(-50%);
    font-size: 1.2vmin;
+   opacity: 0.2;
 }
 
 a:link{
