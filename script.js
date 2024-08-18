@@ -1,9 +1,9 @@
 svg = document.querySelector("svg");
 pt = svg.createSVGPoint();
-nx = -20;
-ny = -20;
-anilock = false;
-console.log("test");
+nx = 30;
+ny = 10;
+
+
 document.getElementById("grok").addEventListener("mousemove", (e) => {
     pt.x = e.clientX; pt.y = e.clientY;
     svg_pnt = pt.matrixTransform(svg.getScreenCTM().inverse());
@@ -29,3 +29,6 @@ function shif(timeStamp){
         anilock = false
     }
 }
+
+anilock = true;
+requestAnimationFrame(shif);
