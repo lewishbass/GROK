@@ -5,4 +5,4 @@ but the animation on the site was pretty cool
 
 [elongstank.lol](elongstank.lol/)
 
-in reference to the (Grok website)[x.ai]
+in reference to the [Grok website](https://x.ai/)
