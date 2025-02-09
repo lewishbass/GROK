@@ -3,4 +3,6 @@
 
 but the animation on the site was pretty cool
 
-[elongstank.lol](https://elongstank.lol/)
+[elongstank.lol](elongstank.lol/)
+
+(in reference to the (Grok website)[x.ai])
